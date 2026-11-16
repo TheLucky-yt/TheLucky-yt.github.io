@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KlipFarma</title>
+<style>
+  :root { --bg: #f7f6f3; --ink: #17191e; --mute: #5d636e; --acc: #d99a00; --card: #fff; --line: #e5e2db; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #0f1115; --ink: #eceef2; --mute: #9aa1ad; --acc: #ffc23d; --card: #171a20; --line: #262a33; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 system-ui, "Segoe UI", sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1 { font-size: 34px; margin: 0 0 6px; letter-spacing: -0.02em; }
+  h1 span { color: var(--acc); }
+  h2 { font-size: 19px; margin: 32px 0 8px; }
+  p, li { color: var(--ink); }
+  .sub { color: var(--mute); margin: 0 0 24px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px 20px; }
+  a { color: inherit; text-decoration-color: var(--acc); text-underline-offset: 3px; }
+  footer { margin-top: 40px; color: var(--mute); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Klip<span>Farma</span></h1>
+  <p class="sub">A private publishing tool for one YouTube channel.</p>
+
+  <div class="card">
+    <p>KlipFarma is a personal tool used by the owner of a single YouTube channel to edit short clips from public Twitch streams (cutting, vertical framing, captions) and upload them to <strong>that owner's own channel</strong>.</p>
+    <p>It uses the <strong>YouTube Data API</strong> to upload videos and manage their privacy status, and the <strong>YouTube Analytics API</strong> to read the channel's own statistics. KlipFarma is not offered to the public and does not access anyone else's YouTube account.</p>
+  </div>
+
+  <h2>Streamers: want a clip removed?</h2>
+  <p>Every video credits the streamer by name and links to their channel and the original clip. If you'd like a clip removed, email <a href="mailto:matejshorts@email.cz">matejshorts@email.cz</a> or leave a comment under the video. It will be taken down within 24 hours and no further clips of you will be posted.</p>
+
+  <h2>Documents</h2>
+  <ul>
+    <li><a href="privacy.html">Privacy Policy</a></li>
+    <li><a href="terms.html">Terms of Service</a></li>
+  </ul>
+
+  <footer>Contact: <a href="mailto:matejshorts@email.cz">matejshorts@email.cz</a></footer>
+</main>
+</body>
+</html>
